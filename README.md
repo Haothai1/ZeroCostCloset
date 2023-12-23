@@ -20,7 +20,7 @@ ZeroCostCloset isn't just about providing information; it's about creating a mov
 1. **Clone** the repository: ````git clone https://github.com/Haothai1/ZeroCostCloset.git````
 2. **Launch**: Open `index.html` in your favorite web browser and start exploring your virtual closet!
 
-## :arrow_down: Getting Involved
+## Getting Involved
 1. **Visit our platform**: [[Website LINK](https://hthai-advocacyproject.haothai2.repl.co/)]
 2. **Learn**: Educate yourself about the issues and challenges of food insecurity.
 3. **Act**: Find and engage with organizations that resonate with your desire to help.
