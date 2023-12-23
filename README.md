@@ -1,15 +1,15 @@
-# ZeroCostCloset :dress: :jeans:
+# ZeroCostCloset :earth_americas:
 
-## :earth_americas: Our Mission
-At **ZeroCostCloset**, we're more than just a wardrobe management tool. Our purpose extends to spreading awareness about the ongoing issue of food insecurity around the world. While we help you organize your wardrobe, we also aim to redirect you to resources where you can contribute to providing food for those in need. Join us in this meaningful cause!
+## :raising_hand: Our Mission
+**ZeroCostCloset** is dedicated to a vital cause – combating global food insecurity. Our platform serves as a gateway to raise awareness and direct support to those facing hunger around the world. Join us in our mission to make a tangible difference through knowledge and action.
 
 ## :sparkles: Overview
-**ZeroCostCloset** is not just an application; it's a movement. Here, managing your wardrobe becomes an act of global awareness and contribution. With our intuitive interface and dynamic features, you get to simplify your life and contribute to a greater cause.
+ZeroCostCloset isn't just about providing information; it's about creating a movement of change and compassion. Our initiative is focused on enlightening individuals about the critical issue of food scarcity and offering pathways to contribute meaningfully to the solution.
 
 ## :star2: Key Features
-- **Interactive UI**: A sleek, user-friendly interface designed for socially conscious fashion enthusiasts.
-- **Responsive Design**: A flawless experience on any device, emphasizing our global reach.
-- **Wardrobe Visualization**: Visualize your clothes and learn how simplifying your life can help others.
+- **Awareness Hub**: A central source for current information on global food insecurity.
+- **Resource Directory**: Curated links to organizations and initiatives where you can contribute directly to hunger relief efforts.
+- **Community Engagement**: Tools and resources to educate, inspire, and mobilize communities towards action.
 
 ## :hammer_and_wrench: Technologies Used
 - **HTML5**: Structuring our web app with the latest standards.
@@ -20,6 +20,10 @@ At **ZeroCostCloset**, we're more than just a wardrobe management tool. Our purp
 1. **Clone** the repository: ````git clone https://github.com/Haothai1/ZeroCostCloset.git````
 2. **Launch**: Open `index.html` in your favorite web browser and start exploring your virtual closet!
 
+## :arrow_down: Getting Involved
+1. **Visit our platform**: [[PLATFORM LINK](https://hthai-advocacyproject.haothai2.repl.co/)]
+2. **Learn**: Educate yourself about the issues and challenges of food insecurity.
+3. **Act**: Find and engage with organizations that resonate with your desire to help.
 
 
 
