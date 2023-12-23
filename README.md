@@ -17,14 +17,8 @@ Welcome to **ZeroCostCloset**, the ultimate web application for fashion enthusia
 1. **Clone** the repository: `git clone [REPOSITORY LINK]`
 2. **Launch**: Open `index.html` in your favorite web browser and start exploring your virtual closet!
 
-## :raising_hand: How to Contribute
-Got ideas to make ZeroCostCloset even better? We'd love to collaborate with you! Check out our contributing guidelines for more information on how you can be a part of this exciting journey.
 
-## :page_facing_up: License
-This project is under the [LICENSE NAME]. Feel free to explore, modify, and distribute, keeping in line with this license.
 
-## :heart: Show Your Support
-Loved ZeroCostCloset? Give us a star on [GitHub](REPOSITORY LINK) and share with your friends!
 
 ---
 
