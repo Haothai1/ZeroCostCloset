@@ -1,0 +1,455 @@
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  /* Add a background color or image */
+  background-color: #74c3eb;
+  background-image: url('');
+
+  /* Customize the font, size, and color for text*/
+  font-family: Arial;
+  font-size: 16px;
+  color: white;
+
+  /* Adjust the padding and margins */
+  padding: 66px 0 0 0;
+  margin: 0 0 0 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  /* background-color: #90b6e0; */
+  font-family: Arial;
+  text-align: left;
+  font-size: 32px;
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  /* background-color: #9cacdd; */
+  font-family: Arial, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  list-style: none;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  background-color: #d0d3dd;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+}
+
+a:link {
+  color: #2C3E50;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:visited {
+  color: #9B59B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E74C3C;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:active {
+  color: #34495E;
+  text-decoration: none;
+}
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+  background-color: #f5f5f5;
+  font-family: 'Georgia', serif;
+  text-align: left;
+}
+
+ol li {
+  color: #333;
+  font-size: 18px;
+  list-style: decimal;
+}
+
+ul {
+  background-color: #6fb5d8;
+  font-family: 'Arial', sans-serif;
+  text-align: right;
+}
+
+ul li {
+  color: #555;
+  font-size: 16px;
+  list-style: disc;
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  /* background-color: #008CBA; */
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+
+
+/* Select and style elements by class name or ID */
+.important {
+  color: white;
+  /* background-color: #54b4d4; */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
+}
+
+#interesting {
+  color: white;
+  /* background-color: #008CBA; */
+  font-family: #34495E;
+  text-align: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  /* list-style: none; */
+}
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  /* background-color: #2C3E50; */
+  color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  padding: 40px 20px 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #34495E;
+}
+
+.header-item:nth-of-type(1) {
+  color: #fff;
+  /* background-color: #2C3E50; */
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.header-item:nth-of-type(2) {
+  color: #fff;
+  /* background-color: #34495E; */
+  font-family: 'Arial', sans-serif;
+  text-align: right;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  color: white;
+  /* background-color: #90b6e0; */
+  font-family: Arial;
+  text-align: left;
+  font-size: 32px;
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 100%;
+}
+
+#header-button {
+  color: #2C3E50;
+  background-color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  color: white;
+  /* background-color: #90b6e0; */
+  text-align: center;
+  font-size: 32px;
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #6fb5d8;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  font-weight: bold;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+  color: #fff;
+  background-color: #2C3E50;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+  color: #fff;
+  background-color: #54789c;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+  color: #fff;
+  /* background-color: #acc7e2; */
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+  /* background: white; */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Add style to button */
+/* #theme-button {
+  color: #2C3E50;
+  background-color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+#theme-button {
+  text-decoration: underline;
+  font-family: 'Arial', sans-serif;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-style: dotted;
+  border-color: #FF4500;
+  border-width: 3px;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Module 6: petition section */
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+/* Module 7: validate form */
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.navbar {
+  position: relative; /* or 'fixed', depending on your layout */
+  z-index: 10; /* Any value higher than the z-index of revealable elements */
+}
+
+
+/* Reduce motion */
+
+
+
+/* thanks modal */
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  border-radius: 5px;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#close-modal-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px; /* Spacing from the text */
+}
