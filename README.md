@@ -1,17 +1,20 @@
 # ZeroCostCloset :dress: :jeans:
 
+## :earth_americas: Our Mission
+At **ZeroCostCloset**, we're more than just a wardrobe management tool. Our purpose extends to spreading awareness about the ongoing issue of food insecurity around the world. While we help you organize your wardrobe, we also aim to redirect you to resources where you can contribute to providing food for those in need. Join us in this meaningful cause!
+
 ## :sparkles: Overview
-Welcome to **ZeroCostCloset**, the ultimate web application for fashion enthusiasts and wardrobe organizers! Dive into a world where managing your wardrobe becomes a delightful experience. Our intuitive interface and dynamic features bring your wardrobe to life, right on your screen.
+**ZeroCostCloset** is not just an application; it's a movement. Here, managing your wardrobe becomes an act of global awareness and contribution. With our intuitive interface and dynamic features, you get to simplify your life and contribute to a greater cause.
 
 ## :star2: Key Features
-- **Interactive UI**: Engage with a sleek, user-friendly interface designed for the modern fashion lover.
-- **Responsive Design**: Enjoy a flawless experience on any device, be it a smartphone, tablet, or desktop.
-- **Wardrobe Visualization**: See your wardrobe come to life! Organize and style your clothes with just a few clicks.
+- **Interactive UI**: A sleek, user-friendly interface designed for socially conscious fashion enthusiasts.
+- **Responsive Design**: A flawless experience on any device, emphasizing our global reach.
+- **Wardrobe Visualization**: Visualize your clothes and learn how simplifying your life can help others.
 
 ## :hammer_and_wrench: Technologies Used
-- **HTML5**: Crafting the structure of our web app with the latest HTML standards.
-- **CSS3**: Styling it to perfection, including `reset.css` for a uniform look across all browsers, and `reset-webview.css` for optimizing web views.
-- **JavaScript**: Powering the application with `index.js`, adding interactivity and dynamic functionalities.
+- **HTML5**: Structuring our web app with the latest standards.
+- **CSS3**: Styling with `reset.css` for uniformity across browsers and `reset-webview.css` for optimized web views.
+- **JavaScript**: Adding interactivity and dynamic functionalities with `index.js`.
 
 ## :arrow_down: Quick Start Installation
 1. **Clone** the repository: ````git clone https://github.com/Haothai1/ZeroCostCloset.git````
