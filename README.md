@@ -29,4 +29,4 @@ ZeroCostCloset isn't just about providing information; it's about creating a mov
 
 ---
 
-Let's make wardrobe management fun and stylish with **ZeroCostCloset**! :tada:
+Let's make food insecurity known with **ZeroCostCloset**! :tada:
