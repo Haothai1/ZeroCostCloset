@@ -14,7 +14,7 @@ Welcome to **ZeroCostCloset**, the ultimate web application for fashion enthusia
 - **JavaScript**: Powering the application with `index.js`, adding interactivity and dynamic functionalities.
 
 ## :arrow_down: Quick Start Installation
-1. **Clone** the repository: `git clone [https://github.com/Haothai1/ZeroCostCloset.git]`
+1. **Clone** the repository: ````git clone https://github.com/Haothai1/ZeroCostCloset.git````
 2. **Launch**: Open `index.html` in your favorite web browser and start exploring your virtual closet!
 
 
